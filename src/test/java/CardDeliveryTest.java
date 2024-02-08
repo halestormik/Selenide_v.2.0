@@ -14,7 +14,8 @@ public class CardDeliveryTest {
     }
 
     @Test
-    public void shouldTestDelivery(){
+    public void shouldTestDelivery() throws InterruptedException {
+        Thread.sleep(5000);
 
     }
 }
